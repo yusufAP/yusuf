@@ -19,9 +19,11 @@ public class Jurnal1 {
         
         System.out.print("Output : ");
         
-        for(int i=0;i<n;i++){
-            System.out.print(fibo[i]+" ");
+        int result=0;
+        for(int i=1;i<n;i++){
+            result+=fibo[i];
         }
+        System.out.print(result);
     }
     
 }
